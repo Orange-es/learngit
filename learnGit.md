@@ -78,7 +78,7 @@ rm -rf / 切勿在Linux中尝试！删除电脑中全部文件！
 
  确实要从版本库中删除该文件，那就用命令`git rm`删掉，并且`git commit`：
 
-1. `git rm fileName`  	
+1.`git rm fileName`  	
 
 2.`git commit -m "remove fileName"`
 
