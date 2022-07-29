@@ -60,6 +60,18 @@ rm -rf / 切勿在Linux中尝试！删除电脑中全部文件！
 
 `git ls-files`：查看git已经加入本地仓库的文件
 
+查看分支：`git branch`
+
+创建分支：`git branch `
+
+切换分支：`git checkout `或者`git switch `
+
+创建+切换分支：`git checkout -b `或者`git switch -c `
+
+合并某分支到当前分支：`git merge `
+
+删除分支：`git branch -d `
+
 #### [git add 所有文件
 
 `git add xx`命令可以将xx文件添加到暂存区，如果有很多改动可以通过 `git add -A .`来一次添加所有改变的文件。
