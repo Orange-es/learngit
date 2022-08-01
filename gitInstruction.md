@@ -60,6 +60,8 @@ rm -rf / 切勿在Linux中尝试！删除电脑中全部文件！
 
 `git ls-files`：查看git已经加入本地仓库的文件
 
+#### 分支管理
+
 查看分支：`git branch`
 
 创建分支：`git branch `
@@ -74,7 +76,7 @@ rm -rf / 切勿在Linux中尝试！删除电脑中全部文件！
 
 修改文件名字：`git mv oldFileName newFileName `(此命令在本地修改后push到GitHub上也会自动修改。)
 
-#### [git add 所有文件
+#### git add 所有文件
 
 `git add xx`命令可以将xx文件添加到暂存区，如果有很多改动可以通过 `git add -A .`来一次添加所有改变的文件。
 
